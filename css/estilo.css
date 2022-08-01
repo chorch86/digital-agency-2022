@@ -1,0 +1,93 @@
+
+/*.navbar-brand{
+    color: plum;
+}
+.nav-link{
+    color: orangered;
+}
+
+.nav-link:hover{
+    color: rgb(115, 255, 0);
+}*/
+
+/* encabezado*/
+.one-header {
+    background-image: url(../imagenes/caja1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    /*height: 56.25rem;*/
+    height: 50vh!important;
+    /*altura relativa de % para diferentes dispositivos*/
+}
+
+/*composición de tags de class*/
+.one-header .container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slogan span {
+    /*hello*/
+    font-size: 5rem !important;
+}
+
+/*fin encabezado*/
+
+/*about us*/
+#aboutus {
+    padding-top: 10rem;
+        padding-bottom: 10rem;
+}
+#aboutus .container-fluid {
+    background: #f6e22a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #f39077);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #f39077);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*contact*/
+#contact {
+    background-image: url(../imagenes/pattern.png);
+    border-top: 1rem;
+    border-bottom: 1rem;
+    border-color: silver;
+    border-style: solid;
+}
+
+/*fin contact*/
+/*fin sm smart*/
+
+/*diseño para tablet. md*/
+@media (min-width:768px) {
+    .one-header {        
+        height: 65vh!important;        
+    }
+    
+    #whatwedo .container {
+        background-image: url(../imagenes/caja2.jpg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: scroll;
+        background-size: 38.43rem;        
+        height: 38.43rem!important;
+    }
+    #whatwedo .col-md-8{        
+        margin-top: 8rem!important;
+    }
+    /*quienes somos*/
+    #whoweare{
+        background-image: url(../imagenes/caja3.jpg);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-attachment: scroll;         
+    }
+    #whoweare .col-md-6{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        
+    }
+}
